@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 70px;
+    border-bottom: 1px solid #c3bfbf;  
+    padding: 5px;
+}
+
+.menu-area{
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px;    
+}
+
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.logo img{
+    width: 50%;
+    padding: 5px;
+
+}
+.menu{
+    width: 80%;
+    float: left;
+    
+}
+.menu ul{
+    float: right;    
+    padding: 15px;
+    
+}
+.menu ul li{
+    display: inline-block;
+    padding: 7px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-family: sans-serif;    
+    transform: uppercase;   
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+.banner{
+    width: 100%;
+    margin: 0 60px;
+}
+.banner-container{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+
+.text-area{
+    padding: 5% 15%;
+}
+.text-area h1{
+    font-family: serif;
+    font-size: 60px;
+    color: #000;
+    font-weight: 700;
+    transform: capitalize;
+    line-height: 1.2;
+
+}
+.text-area h1 span{
+    color: blue;
+}
+.text-area p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 10px;
+}
+.banner-img-area{
+   padding: 2%;
+}
+.body{
+    width: 100%;
+    margin: 60px 0;
+    overflow: hidden;
+}
+.body-container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+.left-text{
+    width: 50%;
+    padding: 50px 10px;
+    float: left;
+    text-align: right;
+    
+}
+.body h2 span{
+    font-size: 60px;
+  
+    color: rgb(210, 16, 103);
+    
+}
+.body p{
+    font-family: 18px;
+    line-height: 1.2;
+}
+.right-text{
+    width: 50%;
+    padding: 10px;
+    float: left;
+    text-align: left;
+}
+.right-text h2{
+    font-size: 60px;
+    padding-block-start: 10px;
+    line-height: 1.2;
+    color: #000;
+    
+}
+.featur{
+    width: 100%;
+    margin: 60px 0;
+}
+.featur-container{
+    width: 80%;
+    margin: 0 auto;
+    
+  
+}
+.featur-area{
+    margin: 100%;
+    margin: 0 auto;
+}
+.single-featur{
+    width: 29%;   
+    text-align: center;
+    background-color: rgb(192, 214, 214);
+    padding: 30px;
+    line-height: 1.3;
+    float: left;
+    margin: 22px;
+   
+}
+.single-featur h2{
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+
+}
+.single-featur p{
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+
+}
+footer{
+    clear: both;
+    height: 60px;
+    background-color: rgb(8, 73, 235);   
+    text-align: center;
+    color: aliceblue;
+    align-content: center;
+}
+.pink{
+    background-color: antiquewhite;
+}
+
+.yellow{
+    background-color: darkkhaki;
+}
+
+.purple{
+    background-color: darkcyan;
+}
